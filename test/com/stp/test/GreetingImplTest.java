@@ -25,9 +25,9 @@ public void setup()
 public void greetShouldReturnAValidOutput()
 {
 	System.out.println("greetShouldReturnAValidOutput");
-	String result = greeting.greet("Junit");
+	String result = greeting.greet("stp");
 	assertNotNull(result);
-	assertEquals("Hello Junit", result);
+	assertEquals("Hello stp", result);
 }
 
 @Test(expected = IllegalArgumentException.class)

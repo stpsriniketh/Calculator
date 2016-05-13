@@ -4,7 +4,7 @@ package com.stp.main;
 
 		public String greet(String name) 
 		{
-			if(name == null || name.length()== 0)
+			if(name == null || name.length()== 0) 
 			{
 				throw new IllegalArgumentException();
 			}
